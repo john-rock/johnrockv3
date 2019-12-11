@@ -1,0 +1,9 @@
+.site-foot .nav{
+    margin-bottom:1rem;
+}
+
+.site-foot p{
+    margin:0;
+    font-weight: var(--font-light);
+    font-size: .8rem;
+}

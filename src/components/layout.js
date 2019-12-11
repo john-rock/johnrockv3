@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import MainNav from "./mainNav"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -25,14 +26,16 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="medium-container">
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+      <div className="site-wrapper">
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <div className="small-container">
+          <main className="page-content">{children}</main>
+          <footer className="site-foot">
+          <MainNav />
+            <p>Crafted in Northeast Pennsylvania</p>
+            <p>© {new Date().getFullYear()} John Rock</p>
+          </footer>
+        </div>
       </div>
     </>
   )

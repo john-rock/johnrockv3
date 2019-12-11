@@ -20,7 +20,7 @@ header{
     display: flex;
     justify-content: space-between;
     font-family: var(--webfont2);
-    max-width: 300px;
+    max-width: 220px;
     width:100%;
 }
 
