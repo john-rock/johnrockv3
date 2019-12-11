@@ -16,10 +16,10 @@ const Portfolio = ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
   return (
     <Layout>
-      <SEO title="Page two" />
+      <SEO title="Portfolio" />
       <h1>Portfolio</h1>
       <div>{Posts}</div>
-      <Link to="/">Go back to the homepage</Link>
+      {/* <Link to="/">Go back</Link> */}
     </Layout>
   )
 }
@@ -36,6 +36,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            description
           }
         }
       }

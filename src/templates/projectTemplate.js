@@ -20,8 +20,12 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <div className="project-links">
+            <a href={frontmatter.url} target="_blank">View Project</a>
+            <a href={frontmatter.source} target="_blank">View Source</a>
+        </div>
       </div>
-      <Link to="/portfolio">Go back</Link>
+      {/* <Link to="/portfolio">Go back</Link> */}
     </div>
     </Layout>
   )
@@ -35,6 +39,9 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        description
+        url
+        source
       }
     }
   }
