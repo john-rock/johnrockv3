@@ -7,3 +7,17 @@
     font-weight: var(--font-light);
     font-size: .8rem;
 }
+
+.bottom-social{
+    display: flex;
+    justify-content: space-between;
+    max-width: 190px;
+    width:100%;
+    margin-top:1rem;
+}
+
+.bottom-social a{
+    color:#fff;
+    text-decoration: none;
+    font-size:1.2rem;
+}
