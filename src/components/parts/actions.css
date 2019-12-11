@@ -1,0 +1,15 @@
+main a{
+    font-weight: 900;
+    position: relative;
+    color:var(--color-primary);
+    text-decoration: none;
+}
+
+main a:after{
+    content:'';
+    height:1px;
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
