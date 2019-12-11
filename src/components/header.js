@@ -5,7 +5,7 @@ import React from "react"
 import MainNav from "./mainNav"
 
 const Header = ({ siteTitle }) => (
-  <header className="medium-container">
+  <header>
       <div className="site-logo">
         <Link to="/">John<span>Rock</span></Link>
       </div>

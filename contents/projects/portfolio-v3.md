@@ -1,6 +1,6 @@
 ---
 path: /portfolio/portfoliov3
-date: 2019-12-11T19:27:15.029Z
+date: 2019-12-11
 title: Portfolio V3
 description: Current version of my portfolio using GatsbyJs
 url: 'https://johnrockv3.netlify.com/'

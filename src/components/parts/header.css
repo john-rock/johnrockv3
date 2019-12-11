@@ -68,3 +68,13 @@ header{
 .nav a:hover:after{
     width:80%;
 }
+
+@media only screen and (max-width: 500px) {
+    header {
+      flex-flow:row wrap
+    }
+
+    .nav{
+        margin-top:1rem;
+    }
+  }

@@ -27,7 +27,7 @@ const Portfolio = ({
 export default Portfolio
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___title] }) {
       edges {
         node {
           id

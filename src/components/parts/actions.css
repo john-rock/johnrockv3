@@ -13,3 +13,20 @@ main a:after{
     left:0;
     top:0;
 }
+
+.project-links{
+    display: flex;
+    justify-content: space-between;
+    max-width: 230px;
+}
+
+.project-links a{
+    box-sizing: border-box;
+    padding:8px;
+    background:#242824;
+    transition: background 300ms ease;
+}
+
+.project-links a:hover{
+    background:#1f211f;
+}
