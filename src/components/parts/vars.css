@@ -1,0 +1,49 @@
+:root {
+
+    /* Colours */
+    /* --color-primary: #3eb0ef; */
+    /* --color-base: #131313; */
+    /* --color-border: #ddd; */
+    /* --color-bg: #f8f8f8; */
+    --color-primary: #d7cdcc;
+    --color-base: #2A2F2A;
+    --color-sub-base: #E3DED8;
+    --color-border: #d2d2d7;
+    --color-bg: #7a0d06;
+    --color-bg-accent: #273243;
+    --color-bg-bright: #640b05;
+    --color-bg-dark: #640b05;
+
+    --color-spare1: #66bbff;
+    --color-spare2: #cccccc;
+    --color-spare3: #63636e;
+    --color-spare4: #252429;
+    
+    /* Apple Dark Appearance System Color*/
+    --color-apple-blue: rgb(10,132,255);
+    --color-apple-brown: rgb(172,142,104);
+    --color-apple-gray: rgb(152,152,157);
+    --color-apple-green: rgb(50,215,75);
+    --color-apple-orange: rgb(255,159,10);
+    --color-apple-pink: rgb(255,55,95);
+    --color-apple-purple: rgb(191,90,242);
+    --color-apple-red: rgb(255,69,58);
+    --color-apple-yellow: rgb(255,214,10);
+
+    /* Fonts */
+    --webfont1: 'Lato', sans-serif;
+    --webfont2: 'Lora', serif;
+    --webfont3: 'Montserrat', sans-serif;
+    --font-light: 300;
+    --font-normal: 400;
+    --font-bold: 700;
+    --font-heavy: 900;
+
+    /* Breakpoints */
+    --xlarge: 1680px;
+    --large: 1280px;
+    --medium: 980px;
+    --small: 740px;
+    --xsmall: 480px;
+
+}

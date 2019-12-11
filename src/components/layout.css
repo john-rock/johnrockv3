@@ -1,3 +1,6 @@
+@import "parts/vars.css";
+@import "parts/actions.css";
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -200,7 +203,8 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'Lato', sans-serif;
+  background: var(--color-base);
+  font-family:  var(--webfont1);
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
