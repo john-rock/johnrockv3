@@ -18,7 +18,6 @@ const Portfolio = ({
     <Layout>
       <SEO title="Page two" />
       <h1>Portfolio</h1>
-      <p>Welcome to page 2.</p>
       <div>{Posts}</div>
       <Link to="/">Go back to the homepage</Link>
     </Layout>
