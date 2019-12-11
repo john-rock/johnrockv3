@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: john-rock/johnrockv3
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: projects
+    label: Project
+    folder: contents/projects
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: url, label: URL }
+      - { name: source, label: Source }
+      - { name: body, label: Body, widget: markdown }

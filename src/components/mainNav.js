@@ -8,7 +8,7 @@ const MainNav = ({ siteTitle }) => (
             <Link to={`/portfolio/`}>Portfolio</Link>
           </div>
           <div className="nav-sub" role="menuitem">
-            <Link to={`/`}>Blog</Link>
+            <Link to={`/blog/`}>Blog</Link>
           </div>
           <div className="nav-sub" role="menuitem">
             <Link to={`/`}>Contact</Link>
