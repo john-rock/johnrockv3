@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 const Contact = () => {
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Contact" />
       <h1>Contact</h1>
       <p>Interested in workding together, have a question about a portfolio piece, or found a bug on this site that needs to be fixed? Use the form below to reach out.</p>
       <form name="contact" id="contact_form" data-netlify="true" action="/thank-you">
