@@ -21,6 +21,7 @@ const Contact = () => {
       <form
         name="contact"
         id="contact_form"
+        method="POST"
         netlify-honeypot="bot-field"
         data-netlify="true"
         action="/thank-you"
@@ -51,10 +52,6 @@ const Contact = () => {
             required
           />
         </div>
-        {/* <div class="telephone">
-      <label for="name"></label>
-      <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required />
-    </div> */}
         <div class="message">
           <label for="message"></label>
           <textarea
