@@ -25,7 +25,7 @@ export default function Template({
             <a href={frontmatter.source} target="_blank">View Source</a>
         </div>
       </div>
-      {/* <Link to="/portfolio">Go back</Link> */}
+      <Link className="back-btn" to="/portfolio">Go back</Link>
     </div>
     </Layout>
   )

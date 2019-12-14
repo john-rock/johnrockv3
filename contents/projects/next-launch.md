@@ -2,7 +2,7 @@
 path: "/portfolio/next-launch"
 date: "2019-12-11"
 title: "Next Launch"
-description: "Web app to display the next upcoming rocket launch."
+description: "Web app to display the next rocket launch."
 url: "https://next-launch.netlify.com/"
 source: "https://github.com/john-rock/nextlaunch"
 ---

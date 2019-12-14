@@ -14,6 +14,10 @@ main a:after{
     top:0;
 }
 
+.project-title{
+    text-decoration: underline;
+}
+
 .project-links{
     display: flex;
     justify-content: space-between;
@@ -30,3 +34,11 @@ main a:after{
 .project-links a:hover{
     background:#1f211f;
 }
+
+a.back-btn{
+    box-sizing: border-box;
+    margin-top:1.4rem;
+    display: inline-block;
+}
+
+

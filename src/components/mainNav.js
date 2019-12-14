@@ -11,7 +11,7 @@ const MainNav = ({ siteTitle }) => (
             <Link to={`/blog/`}>Blog</Link>
           </div>
           <div className="nav-sub" role="menuitem">
-            <Link to={`/`}>Contact</Link>
+            <Link to={`/contact/`}>Contact</Link>
           </div>
       </nav>
 )
