@@ -22,7 +22,7 @@ textarea {
 
 form {
   /* padding: 1rem; */
-  margin-top:3rem
+  margin-top:3rem !important;
 }
 
 .underline {
@@ -168,4 +168,8 @@ textarea {
   input[type='text'], [type='email'], select, textarea {
     font-size: 0.875em;
   }
+}
+
+p.hidden{
+    display: none;
 }

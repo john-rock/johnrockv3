@@ -13,8 +13,23 @@ const Contact = () => {
     <Layout>
       <SEO title="Contact" />
       <h1>Contact</h1>
-      <p>Interested in workding together, have a question about a portfolio piece, or found a bug on this site that needs to be fixed? Use the form below to reach out.</p>
-      <form name="contact" id="contact_form" data-netlify="true" action="/thank-you">
+      <p>
+        Interested in workding together, have a question about a portfolio
+        piece, or found a bug on this site that needs to be fixed? Use the form
+        below to reach out.
+      </p>
+      <form
+        name="contact"
+        id="contact_form"
+        netlify-honeypot="bot-field"
+        data-netlify="true"
+        action="/thank-you"
+      >
+        <p class="hidden">
+          <label>
+            Don’t fill this out if you're human: <input name="bot-field" />
+          </label>
+        </p>
         <div class="name">
           <label for="name"></label>
           <input
