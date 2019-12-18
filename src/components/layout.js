@@ -12,7 +12,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import { FaLinkedinIn, FaGithub, FaCodepen, FaRegEnvelope } from "react-icons/fa";
 import Header from "./header"
 import MainNav from "./mainNav"
+import Mountain from "../images/mountain.svg"
 import "./layout.css"
+
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,6 +32,7 @@ const Layout = ({ children }) => {
       <div className="site-wrapper">
       <div className="small-container">
         <Header siteTitle={data.site.siteMetadata.title} />
+        <Mountain style={{fill: "#fff", opacity: ".3", marginTop:"2rem"}} />
           <main className="page-content">{children}</main>
           <footer className="site-foot">
           <MainNav />

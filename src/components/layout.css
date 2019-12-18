@@ -4,6 +4,11 @@
 @import "parts/header.css";
 @import "parts/footer.css";
 
+
+.cls-2{
+  fill:#000 !important;
+}
+
 .mt-0{
   margin-top:0;
 }
@@ -39,7 +44,7 @@
 }
 
 .page-content{
-  margin:10rem auto;
+  margin:0 auto 10rem;
 }
 
 body {
