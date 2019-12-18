@@ -14,7 +14,7 @@ const Contact = () => {
       <SEO title="Contact" />
       <h1>Contact</h1>
       <p>
-        Interested in workding together, have a question about a portfolio
+        Interested in working together, have a question about a portfolio
         piece, or found a bug on this site that needs to be fixed? Use the form
         below to reach out.
       </p>

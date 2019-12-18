@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Footer from "./footer"
 import MainNav from "./mainNav"
-import Mountain from "../images/mountain.svg"
+import Mountain from "../images/mountain3.svg"
 import "./layout.css"
 
 
@@ -32,8 +32,9 @@ const Layout = ({ children }) => {
       <div className="site-wrapper">
       <div className="small-container">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Mountain style={{fill: "#fff", opacity: ".3", marginTop:"2rem"}} />
+        
           <main className="page-content">{children}</main>
+          <Mountain style={{fill: "#fff", opacity: ".3", marginTop:"2rem"}} />
           <Footer />
         </div>
       </div>
